@@ -91,6 +91,28 @@ span {
   font-weight: bold;
   color: rgb(146, 145, 145);
 }
+.arrow {
+  font-size: 50px;
+  color: rgb(236, 68, 7);
+  position: fixed;
+  bottom: 30px;
+  left: 10px;
+}
+/* animation 2 */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.arrow {
+  animation: bounce 1.5s ease-in-out infinite;
+}
 .banner2 {
   display: flex;
   flex-wrap: wrap;
