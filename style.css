@@ -92,6 +92,7 @@ span {
   color: rgb(146, 145, 145);
 }
 .arrow {
+  text-decoration: none;
   font-size: 50px;
   color: rgb(236, 68, 7);
   position: fixed;
@@ -223,9 +224,7 @@ footer {
   #order_1 {
     margin-right: 50px;
   }
-  span {
-    margin-left: 20px;
-  }
+  
   .h_keyimage {
     width: 450px;
     height: 400px;
@@ -256,7 +255,7 @@ footer {
   }
   .muskey_image {
     height: 250px;
-    width: 300px;
+    width: 340px;
     border-radius: 20px;
   }
   .para_2 {
