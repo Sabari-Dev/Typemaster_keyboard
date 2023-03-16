@@ -247,14 +247,14 @@ footer {
     margin-right: 0;
   }
   .phekey_image {
-    height: 250px;
-    width: 120px;
+    height: 220px;
+    width: 110px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
   .muskey_image {
-    height: 250px;
-    width: 310px;
+    height: 220px;
+    width: 280px;
     border-radius: 20px;
   }
   .para_2 {
