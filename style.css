@@ -163,7 +163,7 @@ span {
 }
 .features {
   padding: 20px;
-  min-width: 200px;
+  width: 200px;
   border-radius: 30px;
 }
 .features:hover {
