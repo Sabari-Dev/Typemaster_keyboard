@@ -43,8 +43,8 @@ header {
   justify-content: space-between;
 }
 .h_keyimage {
-  width: 350px;
-  height: 300px;
+  width: 400px;
+  height: 450px;
   border-radius: 15px;
   margin-left: 60px;
   margin-right: 50px;
@@ -224,10 +224,12 @@ footer {
   #order_1 {
     margin-right: 50px;
   }
-  
+  span{
+    margin-right:0;
+  }
   .h_keyimage {
     width: 350px;
-    height: 350px;
+    height: 300px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 0;
