@@ -115,12 +115,16 @@ span {
   animation: bounce 1.5s ease-in-out infinite;
 }
 .banner2 {
-  display: flex;
+  /*display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 50px;
-  margin-right: 150px;
+  margin-right: 150px;*/
+  display:grid;
+  grid-template-areas:
+    "a b"
+    "c c";
 }
 .box_2 {
   height: 200px;
@@ -131,6 +135,7 @@ span {
   margin-top: 200px;
 }
 .phekey_image {
+  grid-area:a;
   height: 400px;
   width: 230px;
   border-radius: 20px;
@@ -142,11 +147,13 @@ span {
     url("./image/image2.jpg") no-repeat center/cover;
 }
 .muskey_image {
+  grid-area:b;
   height: 400px;
   width: 350px;
   border-radius: 20px;
 }
 .para_2 {
+  grid-area:c;
   text-align: left;
   width: 300px;
   padding-left: 50px;
